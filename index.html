@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Minik Mucizeler Kreş ve Anaokulu · Mamak</title>
+<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="Minik Mucizeler Kreş ve Anaokulu, Cengizhan / Mamak. 2–6 yaş. Her çocuk bir mucize; her mucize, bir gelecektir.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Mulish:wght@400;600;700;800&display=swap">
+<style>
+/* Layout: a rainbow with a shooting star. Parents make a wish for their child on a star and see how the school supports it; a year of special days with "what's next" from today's date; groups; parent info */
+:root{--bg:#fdfaff;--paper:#fff;--ink:#2d2445;--muted:#675f7c;--mint:#2fbcae;--mint-d:#1f9387;--mint-soft:#dcf5f2;--pink:#ee5d9a;--pink-d:#cc3f7b;--pink-soft:#fde4ef;--purple:#7d5fd0;--purple-d:#6145b2;--purple-soft:#ece6fb;--sun:#ffc93c;--sun-soft:#fff3d1;--sky:#4aa6e8;--sky-soft:#e1f0fc;--red:#e63946;--line:#ece6f3;
+--disp:'Paytone One',system-ui,sans-serif;--body:'Mulish',system-ui,sans-serif;color-scheme:light}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.65;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+.wrap{max-width:1140px;margin:0 auto;padding-left:max(18px,env(safe-area-inset-left,0px));padding-right:max(18px,env(safe-area-inset-right,0px))}
+h1,h2,h3{font-family:var(--disp);font-weight:400;line-height:1.08;margin:0;text-wrap:balance}
+p{margin:0}a{color:inherit}
+:focus-visible{outline:3px solid var(--purple);outline-offset:3px}
+.num{font-variant-numeric:tabular-nums}
+.ph{background:var(--sun);color:var(--ink);border-radius:6px;padding:0 6px}
+
+.preview{background:var(--ink);color:#ece8f6;font-size:13px}
+.preview .wrap{display:flex;justify-content:space-between;gap:6px 16px;flex-wrap:wrap;padding-block:8px}
+.preview b{color:var(--sun)}
+
+nav .wrap{display:flex;justify-content:space-between;align-items:center;gap:14px;padding-block:14px}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none;min-width:0}
+.logo svg{width:50px;height:50px;flex:none}
+.logo b{font-family:var(--disp);font-size:1.45rem;line-height:1;display:block}
+.logo b span{color:var(--mint)}
+.logo b em{font-style:normal;color:var(--pink)}
+.logo small{font-size:11.5px;font-weight:800;color:var(--muted);letter-spacing:.05em}
+.nl{display:flex;gap:22px;font-weight:800;font-size:15px;align-items:center}
+.nl a:not(.btn){text-decoration:none;color:var(--muted)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;white-space:nowrap;background:var(--purple);color:#fff;text-decoration:none;font:inherit;font-weight:800;font-size:16px;padding:13px 22px;border-radius:999px;border:0;cursor:pointer;box-shadow:0 4px 0 var(--purple-d)}
+.btn:active{transform:translateY(3px);box-shadow:0 1px 0 var(--purple-d)}
+.btn.p{background:var(--pink);box-shadow:0 4px 0 var(--pink-d)}
+.btn.m{background:var(--mint);box-shadow:0 4px 0 var(--mint-d)}
+.btn.lt{background:var(--paper);color:var(--ink);box-shadow:inset 0 0 0 2px var(--line)}
+
+/* hero */
+.hero{padding-block:16px 60px}
+.hg{display:grid;grid-template-columns:1.05fr .95fr;gap:30px;align-items:center}
+.hg>*{min-width:0}
+.quote{display:inline-flex;gap:8px;align-items:center;background:var(--purple-soft);color:var(--purple-d);border-radius:999px;padding:6px 14px;font-weight:800;font-size:14px}
+.hero h1{font-size:clamp(2.6rem,6.4vw,4.6rem);margin-top:16px}
+.hero h1 .a{color:var(--pink)}.hero h1 .b{color:var(--mint)}
+.hero .s{font-size:1.15rem;color:var(--muted);margin-top:16px;max-width:48ch}
+.cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}
+.facts{display:flex;gap:8px;flex-wrap:wrap;margin-top:22px}
+.facts span{font-weight:800;font-size:14px;padding:6px 14px;border-radius:12px;background:var(--b);color:var(--c)}
+.rb{max-width:100%}
+.rb svg{width:100%;height:auto;display:block}
+.shoot{animation:shoot 3.6s ease-in-out infinite}
+@keyframes shoot{0%{transform:translate(-40px,30px) scale(.8);opacity:0}20%{opacity:1}60%{transform:translate(0,0) scale(1)}100%{transform:translate(0,0) scale(1);opacity:1}}
+.tw{animation:tw 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes tw{50%{transform:scale(.6);opacity:.5}}
+
+section{padding-block:clamp(56px,8vw,96px)}
+.head{display:grid;gap:10px;margin-bottom:34px;max-width:62ch}
+.head h2{font-size:clamp(2.1rem,4.8vw,3.2rem)}
+.head p{color:var(--muted);font-size:1.05rem}
+.eb{font-weight:800;font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--pink)}
+
+/* wish */
+.wish{background:linear-gradient(180deg,#2d2445,#3e3266);color:#f3effd}
+.wish .head p{color:#c9c1e3}.wish .eb{color:var(--sun)}
+.wg{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center}
+.wg>*{min-width:0}
+.wl{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.wb{font:inherit;font-weight:800;font-size:15.5px;border:2px solid rgba(255,255,255,.15);background:rgba(255,255,255,.06);color:#fff;border-radius:18px;padding:14px;cursor:pointer;display:flex;gap:10px;align-items:center;text-align:left}
+.wb i{font-style:normal;font-size:22px}
+.wb[aria-pressed="true"]{background:var(--sun);color:var(--ink);border-color:var(--sun)}
+.wcard{background:var(--paper);color:var(--ink);border-radius:28px;padding:28px;display:grid;gap:12px;min-height:300px;align-content:start;position:relative;overflow:hidden}
+.wcard .star{position:absolute;right:18px;top:16px;width:64px;height:64px;animation:pop .6s ease-out}
+@keyframes pop{from{transform:translate(-120px,80px) rotate(-90deg) scale(.4);opacity:0}}
+.wcard .k{font-weight:800;font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--pink)}
+.wcard h3{font-size:2rem;padding-right:70px}
+.wcard p{color:var(--muted)}
+.wcard ul{list-style:none;margin:4px 0 0;padding:0;display:grid;gap:8px}
+.wcard li{background:var(--purple-soft);border-radius:14px;padding:10px 14px;font-size:15px;font-weight:700}
+.wmade{font-weight:800;color:var(--sun);margin-top:14px;min-height:1.5em}
+
+/* calendar */
+.cal{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px}
+.ev{background:var(--paper);border:2px solid var(--line);border-radius:22px;padding:18px;display:grid;gap:6px;align-content:start;position:relative}
+.ev .ic{font-size:30px;line-height:1}
+.ev small{font-weight:800;font-size:12.5px;color:var(--c);letter-spacing:.04em}
+.ev h3{font-size:1.2rem}
+.ev p{color:var(--muted);font-size:14px}
+.ev.next{border-color:var(--pink);background:var(--pink-soft)}
+.ev.next:after{content:"Sıradaki mucize";position:absolute;top:-12px;left:14px;background:var(--pink);color:#fff;font-size:12px;font-weight:800;border-radius:999px;padding:2px 10px}
+.ev.past{opacity:.6}
+.calnote{margin-top:14px;color:var(--muted);font-size:14px}
+
+/* why */
+.why{background:var(--mint-soft)}
+.wy3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.wy{background:var(--paper);border-radius:24px;padding:24px;display:grid;gap:8px;align-content:start}
+.wy .ic{font-size:30px}
+.wy h3{font-size:1.4rem}
+.wy p{color:var(--muted);font-size:15px}
+
+/* groups */
+.groups{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+.gr{background:var(--paper);border:2px solid var(--line);border-radius:24px;padding:20px;display:grid;gap:8px;align-content:start;border-bottom:8px solid var(--c)}
+.gr .ic{font-size:34px;line-height:1}
+.gr small{font-weight:800;font-size:12.5px;color:var(--c);letter-spacing:.04em}
+.gr h3{font-size:1.4rem}
+.gr p{color:var(--muted);font-size:14.5px}
+.law{margin-top:18px;font-size:14px;color:var(--muted);max-width:80ch}
+
+/* day + finder */
+.dayg{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start}
+.dayg>*{min-width:0}
+.tl{list-style:none;margin:20px 0 0;padding:0;display:grid;gap:8px}
+.tl li{display:grid;grid-template-columns:64px 1fr;gap:12px;align-items:center;background:var(--paper);border:2px solid var(--line);border-radius:16px;padding:10px 14px}
+.tl time{font-family:var(--disp);color:var(--purple);font-size:1.1rem}
+.tl b{display:block;font-weight:800}
+.tl span{color:var(--muted);font-size:15px}
+.finder{background:var(--sun-soft);border-radius:28px;padding:28px;display:grid;gap:14px}
+.finder h3{font-size:2rem}
+.pick{display:flex;gap:12px;flex-wrap:wrap}
+.pick label{display:grid;gap:6px;font-weight:800;font-size:14px;color:var(--muted)}
+select,input:not([type=checkbox]),textarea{font:inherit;font-size:16px;padding:12px 14px;border:2px solid var(--line);border-radius:14px;background:var(--paper);color:var(--ink);width:100%;min-width:0}
+select:focus,input:not([type=checkbox]):focus,textarea:focus{border-color:var(--purple);outline:none}
+.pick select{width:auto;min-width:130px}
+.res{background:var(--paper);border-radius:20px;padding:22px;display:grid;gap:8px;min-height:180px;align-content:center}
+.res .age{font-weight:800;color:var(--muted);font-size:15px}
+.res .big{font-family:var(--disp);font-size:clamp(2rem,4.5vw,2.6rem);line-height:1}
+.res p{color:var(--muted)}
+.res .btn{justify-self:start;white-space:normal}
+
+.two{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.box{border-radius:28px;padding:28px;display:grid;gap:14px;align-content:start}
+.box.a{background:var(--pink-soft)}.box.g{background:var(--sky-soft)}
+.box h3{font-size:1.9rem}
+.steps{list-style:none;margin:0;padding:0;display:grid;gap:12px;counter-reset:s}
+.steps li{counter-increment:s;display:grid;grid-template-columns:34px 1fr;gap:12px}
+.steps li:before{content:counter(s);width:34px;height:34px;border-radius:50%;background:var(--pink);color:#fff;display:grid;place-items:center;font-weight:800}
+.steps b{display:block}.steps span{color:var(--muted);font-size:15px}
+.docs{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.docs label{display:flex;gap:12px;align-items:flex-start;background:var(--paper);border-radius:14px;padding:12px 14px;cursor:pointer}
+.docs input{width:20px;height:20px;margin-top:3px;accent-color:var(--sky);flex:none}
+.docs label.on span{text-decoration:line-through;color:var(--muted)}
+.dc{font-size:14px;font-weight:800;color:var(--muted)}
+
+.faq{max-width:820px}
+.faq details{background:var(--paper);border:2px solid var(--line);border-radius:18px;padding:16px 20px;margin-bottom:10px}
+.faq summary{font-family:var(--disp);font-size:1.2rem;cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:12px}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary:after{content:"+";color:var(--pink);font-size:1.5rem;line-height:1}
+.faq details[open] summary:after{content:"–"}
+.faq p{color:var(--muted);margin-top:8px}
+
+.contact{background:var(--ink);color:#f1edf9}
+.cg{display:grid;grid-template-columns:1fr 1.05fr;gap:40px;align-items:start}
+.cg>*{min-width:0}
+.contact h2{font-size:clamp(2.2rem,5vw,3.3rem)}
+.contact h2 span{color:var(--sun)}
+.contact .s{color:#c9c1e3;margin-top:14px;max-width:44ch}
+.contact .eb{color:var(--sun)}
+.info{margin-top:24px;display:grid;border-top:1px solid #4a4068}
+.info div{display:grid;grid-template-columns:110px 1fr;gap:12px;padding-block:14px;border-bottom:1px solid #4a4068}
+.info span{font-size:13px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#a79fc4}
+.info b{font-weight:700;word-break:break-word}
+.info a{color:var(--sun)}
+form{background:var(--paper);color:var(--ink);border-radius:28px;padding:24px;display:grid;gap:12px}
+form h3{font-size:1.9rem}
+.f{display:grid;gap:5px}.f label{font-size:14px;font-weight:800;color:var(--muted)}
+.r2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.kv{display:flex;gap:10px;font-size:14px;color:var(--muted);align-items:flex-start}
+.kv input{width:18px;height:18px;margin-top:3px;accent-color:var(--purple);flex:none}
+.ok{background:var(--mint-soft);color:var(--mint-d);border-radius:14px;padding:12px 14px;font-weight:700}
+.er{color:#b23a2c;font-weight:700;font-size:14px}
+footer{background:var(--ink);color:#a79fc4;font-size:14px;border-top:1px solid #4a4068}
+footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;padding-block:22px}
+
+@media (max-width:980px){.cal{grid-template-columns:repeat(3,minmax(0,1fr))}.groups{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:900px){
+ .hg,.wg,.dayg,.cg,.two{grid-template-columns:1fr}
+ .wy3{grid-template-columns:1fr}
+ .nl a:not(.btn){display:none}
+ .rb{max-width:420px;margin-inline:auto}
+}
+@media (max-width:560px){
+ .r2,.groups{grid-template-columns:1fr}
+ .cal{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .wl{grid-template-columns:1fr}
+ .info div{grid-template-columns:1fr;gap:2px}.logo small{display:none}.nl .btn{padding:10px 14px;font-size:14px}
+ .tl li{grid-template-columns:56px 1fr}.wcard,.finder{padding:22px}
+}
+</style></head><body>
+
+<div class="preview"><div class="wrap"><span><b>Önizleme.</b> Bu sayfa Minik Mucizeler Kreş ve Anaokulu için hazırlanmış taslak bir tasarımdır.</span><span>Sarı işaretli bilgiler sizin onayınızla güncellenecektir.</span></div></div>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<symbol id="st" viewBox="0 0 40 40"><path d="M20 3l5 11 12 1.5-9 8 2.6 12L20 29.5 9.4 35.5 12 23.5l-9-8L15 14z" fill="currentColor"/></symbol>
+</defs></svg>
+
+<nav><div class="wrap">
+<a class="logo" href="#"><svg viewBox="0 0 50 50" aria-hidden="true"><circle cx="25" cy="25" r="24" fill="#fff" stroke="#ece6f3" stroke-width="2"/><path d="M8 30a17 17 0 0 1 22-16" fill="none" stroke="#ee5d9a" stroke-width="3.5" stroke-linecap="round"/><path d="M12 31a13 13 0 0 1 17-12" fill="none" stroke="#ffc93c" stroke-width="3.5" stroke-linecap="round"/><path d="M16 32a9 9 0 0 1 12-8" fill="none" stroke="#2fbcae" stroke-width="3.5" stroke-linecap="round"/><path d="M20 33a5 5 0 0 1 7-4" fill="none" stroke="#7d5fd0" stroke-width="3.5" stroke-linecap="round"/><use href="#st" x="28" y="8" width="14" height="14" style="color:#ffc93c"/></svg>
+<span><b><span>Minik</span> <em>Mucizeler</em></b><small>KREŞ VE ANAOKULU · 2–6 YAŞ</small></span></a>
+<div class="nl"><a href="#dilek">Bir dilek tut</a><a href="#takvim">Özel günler</a><a href="#gruplar">Gruplar</a><a class="btn p" href="#iletisim">Ön kayıt</a></div>
+</div></nav>
+
+<header class="hero"><div class="wrap hg">
+<div>
+<span class="quote">✨ Mamak · Cengizhan</span>
+<h1>Her çocuk bir <span class="a">mucize;</span> her mucize, bir <span class="b">gelecek.</span></h1>
+<p class="s">Velilerimizin "ikinci evimiz" dediği, kapısında güler yüzle karşılandığınız, gün içinde aklınıza takılan her soruya hemen cevap alabildiğiniz sıcacık bir yuva.</p>
+<div class="cta"><a class="btn p" href="#iletisim">Okulu gezmek istiyorum</a><a class="btn lt" href="#dilek">Çocuğum için bir dilek tut</a></div>
+<div class="facts"><span style="--b:var(--mint-soft);--c:var(--mint-d)">2–6 yaş</span><span style="--b:var(--purple-soft);--c:var(--purple-d)">07.00–19.00</span><span style="--b:var(--pink-soft);--c:var(--pink-d)">Kreş ve gündüz bakımevi</span></div>
+</div>
+<div class="rb" aria-hidden="true"><svg viewBox="0 0 440 360">
+<circle cx="220" cy="190" r="160" fill="#ece6fb"/>
+<g fill="none" stroke-linecap="round" stroke-width="22"><path d="M70 300a150 150 0 0 1 260-110" stroke="#ee5d9a"/><path d="M96 302a124 124 0 0 1 218-90" stroke="#ffc93c"/><path d="M122 304a98 98 0 0 1 176-70" stroke="#2fbcae"/><path d="M148 306a72 72 0 0 1 134-50" stroke="#7d5fd0"/></g>
+<g class="shoot"><path d="M300 120l70-50" stroke="#ffc93c" stroke-width="6" stroke-linecap="round" opacity=".5"/><use href="#st" x="330" y="40" width="70" height="70" style="color:#ffc93c"/></g>
+<g class="tw"><use href="#st" x="60" y="70" width="24" height="24" style="color:#ee5d9a"/></g>
+<g class="tw" style="animation-delay:.8s"><use href="#st" x="390" y="200" width="20" height="20" style="color:#2fbcae"/></g>
+<g class="tw" style="animation-delay:1.6s"><use href="#st" x="40" y="200" width="18" height="18" style="color:#7d5fd0"/></g>
+<g transform="translate(150 280)"><circle r="17" fill="#f2c6a5"/><path d="M-17-3a17 17 0 0 1 34 0c-6-10-28-10-34 0z" fill="#5a3a26"/><path d="M-16 18h32l6 44h-44z" fill="#2fbcae"/></g>
+<g transform="translate(205 270)"><circle r="18" fill="#e4b58f"/><path d="M-18-2a18 18 0 0 1 36 0l-5-7-13-5-13 5z" fill="#2c1d14"/><circle cx="-19" cy="0" r="6" fill="#2c1d14"/><circle cx="19" cy="0" r="6" fill="#2c1d14"/><path d="M-16 19h32l10 46h-52z" fill="#ee5d9a"/></g>
+<g transform="translate(262 282)"><circle r="16" fill="#8d5a3b"/><path d="M-16-4a16 16 0 0 1 32 0c-6-8-26-8-32 0z" fill="#1d120c"/><path d="M-15 17h30l5 42h-40z" fill="#7d5fd0"/><path d="M15 24l20-26" stroke="#8d5a3b" stroke-width="7" stroke-linecap="round"/></g>
+<g transform="translate(312 290)"><circle r="15" fill="#f6d2b6"/><path d="M-15-2a15 15 0 0 1 30 0l-4-6-11-4-11 4z" fill="#c9893f"/><path d="M-14 16h28l8 40h-44z" fill="#ffc93c"/></g>
+</svg></div>
+</div></header>
+
+<section class="wish" id="dilek"><div class="wrap">
+<div class="head"><p class="eb">Kayan yıldız</p><h2>Çocuğunuz için bir dilek tutun</h2><p>Her ebeveynin çocuğu için bir dileği vardır. Birini seçin, yıldızınız kaysın; biz de o dileği okulda nasıl desteklediğimizi anlatalım.</p></div>
+<div class="wg">
+<div><div class="wl" id="wl" role="group" aria-label="Dilek seçimi"></div><p class="wmade" id="wmade" aria-live="polite"></p></div>
+<div class="wcard" id="wcard" aria-live="polite"></div>
+</div></div></section>
+
+<section id="takvim"><div class="wrap">
+<div class="head"><p class="eb">Mucizeler takvimi</p><h2>Yıl boyu özel günler</h2><p>Okulumuzda her özel gün, birlikte hazırlandığımız küçük bir şenlik. Takvimde sıradaki mucizeyi işaretledik.</p></div>
+<div class="cal" id="cal"></div>
+<p class="calnote">Tarihler örnektir; okulun yıllık planına göre güncellenir.</p>
+</div></section>
+
+<section class="why"><div class="wrap">
+<div class="head"><p class="eb">Neden Minik Mucizeler?</p><h2>Velilerimizin en çok söylediği</h2></div>
+<div class="wy3">
+<div class="wy"><span class="ic" aria-hidden="true">🏡</span><h3>İkinci bir ev</h3><p>Çocuklar sabah okula sevinerek gelir; öğretmenleri onları kapıda karşılar, gün boyu sevgiyle ilgilenir.</p></div>
+<div class="wy"><span class="ic" aria-hidden="true">💬</span><h3>Her zaman açık iletişim</h3><p>Gün içinde merak ettiğiniz her şeyi sorabilirsiniz, cevapsız soru bırakmayız.</p></div>
+<div class="wy"><span class="ic" aria-hidden="true">🌈</span><h3>Sevgi, saygı ve şefkat</h3><p>Eğitimi sevgi, saygı ve şefkatle veririz. Her çocuğun gelişimini yakından takip ederiz.</p></div>
+</div></div></section>
+
+<section id="gruplar"><div class="wrap">
+<div class="head"><p class="eb">Gruplarımız</p><h2>Gökkuşağının dört rengi</h2><p>Her yaşa ayrı bir grup, yaşına uygun bir program.</p></div>
+<div class="groups">
+<div class="gr" style="--c:var(--pink)"><span class="ic" aria-hidden="true">☁️</span><small>2 – 3 YAŞ</small><h3>Pamuklar</h3><p>Okulla ilk tanışma. Öz bakım, tuvalet eğitimi desteği, duyu oyunları.</p></div>
+<div class="gr" style="--c:var(--sun)"><span class="ic" aria-hidden="true">🦋</span><small>3 – 4 YAŞ</small><h3>Kelebekler</h3><p>Paylaşmak, sıra beklemek, sanat, müzik ve drama.</p></div>
+<div class="gr" style="--c:var(--mint)"><span class="ic" aria-hidden="true">🌈</span><small>4 – 5 YAŞ</small><h3>Gökkuşakları</h3><p>Kavramlar, deneyler, özel gün hazırlıkları ve gösteriler.</p></div>
+<div class="gr" style="--c:var(--purple)"><span class="ic" aria-hidden="true">🌠</span><small>5 – 6 YAŞ</small><h3>Kayan Yıldızlar</h3><p>İlkokula hazırlık: dikkat, kalem tutma, sesler, sayılar ve özgüven.</p></div>
+</div>
+<p class="law">Grup isimleri örnektir; okulun güncel programına göre düzenlenecektir. <span class="ph">Kurum ruhsat bilgisi eklenecek</span></p>
+</div></section>
+
+<section style="padding-top:0"><div class="wrap dayg">
+<div><p class="eb">Bir günümüz</p><h2 style="font-size:clamp(2.1rem,4.8vw,3.2rem);margin-top:10px">07.00'den 19.00'a</h2>
+<ol class="tl">
+<li><time class="num">07.00</time><div><b>Günaydın!</b><span>Kapıda güler yüzle karşılama, serbest oyun.</span></div></li>
+<li><time class="num">08.45</time><div><b>Kahvaltı</b><span>Birlikte sofraya oturuyoruz.</span></div></li>
+<li><time class="num">09.30</time><div><b>Çember saati</b><span>Takvim, duygular ve günün planı.</span></div></li>
+<li><time class="num">10.00</time><div><b>Etkinlik</b><span>Kavramlar, sanat, özel gün hazırlıkları.</span></div></li>
+<li><time class="num">11.00</time><div><b>Oyun ve hareket</b><span>Grup oyunları, müzik ve dans.</span></div></li>
+<li><time class="num">12.00</time><div><b>Öğle yemeği</b><span>Sıcak ve dengeli bir öğün.</span></div></li>
+<li><time class="num">13.00</time><div><b>Dinlenme</b><span>Uyku ya da sessiz kitap köşesi.</span></div></li>
+<li><time class="num">15.00</time><div><b>Atölye</b><span>Drama, el işi ya da müzik.</span></div></li>
+<li><time class="num">16.00</time><div><b>İkindi kahvaltısı</b><span>Meyve ve hafif bir ara öğün.</span></div></li>
+<li><time class="num">19.00</time><div><b>Eve dönüş</b><span>Günün özeti veliyle paylaşılır.</span></div></li>
+</ol></div>
+<div class="finder"><p class="eb">Grup bulucu</p><h3>Çocuğum hangi grupta?</h3><p style="color:var(--muted)">Doğum ayını ve yılını seçin.</p>
+<div class="pick"><label for="bm">Doğum ayı<select id="bm"></select></label><label for="by">Doğum yılı<select id="by"></select></label></div>
+<div class="res" id="res" aria-live="polite"></div></div>
+</div></section>
+
+<section style="padding-top:0"><div class="wrap two">
+<div class="box a"><p class="eb">Uyum süreci</p><h3>İlk günler adım adım</h3>
+<ol class="steps">
+<li><p><b>Birlikte tanışma</b><span>İlk gün siz de yanındasınız.</span></p></li>
+<li><p><b>Kısa ayrılıklar</b><span>Süre her gün biraz uzar. Vedalaşmak önemli.</span></p></li>
+<li><p><b>İlk yemek ve uyku</b><span>Çocuğunuz hazır olduğunda okulda dener.</span></p></li>
+<li><p><b>Her gün bilgi</b><span>Uyum sürecinde gün içinde size haber veririz.</span></p></li>
+</ol></div>
+<div class="box g"><p class="eb" style="color:#2f7fbf">Kayıt için</p><h3>Hazırlamanız gerekenler</h3>
+<p class="dc" id="dc" aria-live="polite"></p>
+<ul class="docs" id="docs"></ul>
+<p style="font-size:14px;color:var(--muted)">İşaretledikleriniz yalnızca bu sayfada kalır.</p></div>
+</div></section>
+
+<section style="padding-top:0"><div class="wrap">
+<div class="head"><p class="eb">Sık sorulanlar</p><h2>Veliler soruyor</h2></div>
+<div class="faq">
+<details open><summary>Kaç yaşındaki çocukları alıyorsunuz?</summary><p>2–6 yaş arası çocuklar için programımız var. Grubunu yukarıdaki grup bulucudan görebilirsiniz.</p></details>
+<details><summary>Okul saatleriniz nedir?</summary><p>Hafta içi her gün 07.00–19.00 arası açığız. Çalışan aileler için erken bırakma ve geç alma kolaylığı sunuyoruz.</p></details>
+<details><summary>Özel günlerde neler yapıyorsunuz?</summary><p>29 Ekim, 10 Kasım, 23 Nisan, Anneler ve Babalar Günü gibi özel günlerde çocuklarımızla birlikte hazırlanıyor, veli katılımlı etkinlikler düzenliyoruz. Yıl içinde partiler ve gösteriler de yapıyoruz.</p></details>
+<details><summary>Servis hizmetiniz var mı?</summary><p><span class="ph">Servis bilgisi eklenecek</span></p></details>
+<details><summary>Okulu ziyaret edebilir miyim?</summary><p>Elbette. Ön kayıt formunu doldurun ya da bizi arayın; size uygun bir saatte okulumuzu birlikte gezelim.</p></details>
+</div></div></section>
+
+<section class="contact" id="iletisim"><div class="wrap cg">
+<div><p class="eb">Ön kayıt ve okul gezisi</p><h2>Minik mucizeniz için <span>bir yer</span> ayıralım</h2><p class="s">Formu doldurun, size dönelim. Okul gezisi yaklaşık yarım saat sürer; çocuğunuzla birlikte gelebilirsiniz.</p>
+<div class="info">
+<div><span>Adres</span><b>Cengizhan Mah. Şehitler Cad. No:102/C, Mamak / Ankara · <a href="https://www.google.com/maps/search/?api=1&amp;query=39.8958358%2C32.9276252" target="_blank" rel="noopener">Haritada aç</a></b></div>
+<div><span>Telefon</span><b class="num">0541 439 76 19</b></div>
+<div><span>Saatler</span><b>Hafta içi 07.00–19.00</b></div>
+<div><span>Instagram</span><b><a href="https://www.instagram.com/mminikmucizelerkres/" target="_blank" rel="noopener">@mminikmucizelerkres</a></b></div>
+</div></div>
+<form id="f" novalidate>
+<h3>Ön kayıt formu</h3>
+<div class="r2"><div class="f"><label for="pn">Veli adı soyadı</label><input id="pn" autocomplete="name" placeholder="Adınız soyadınız"></div><div class="f"><label for="pt">Telefon</label><input id="pt" type="tel" autocomplete="tel" placeholder="05xx xxx xx xx"></div></div>
+<div class="r2"><div class="f"><label for="cn">Çocuğun adı</label><input id="cn" placeholder="Çocuğunuzun adı"></div><div class="f"><label for="cb">Doğum tarihi</label><input id="cb" type="month"></div></div>
+<div class="r2"><div class="f"><label for="cg">Grup</label><select id="cg"><option>Pamuklar · 2–3 yaş</option><option>Kelebekler · 3–4 yaş</option><option>Gökkuşakları · 4–5 yaş</option><option>Kayan Yıldızlar · 5–6 yaş</option><option>Emin değilim</option></select></div><div class="f"><label for="cd">Ne zaman başlamak istersiniz?</label><select id="cd"><option>Hemen</option><option>1–2 ay içinde</option><option>Yeni dönemde</option></select></div></div>
+<div class="f"><label for="nt">Notunuz</label><textarea id="nt" rows="2" placeholder="Alerji, uyum süreci veya merak ettikleriniz"></textarea></div>
+<label class="kv" for="kv"><input type="checkbox" id="kv"><span>Kişisel verilerimin ön kayıt amacıyla işlenmesine ilişkin aydınlatma metnini okudum.</span></label>
+<p class="er" id="er" hidden></p>
+<button class="btn p" type="submit">Ön kaydı gönder</button>
+<p class="ok" id="ok" hidden></p>
+</form>
+</div></section>
+<footer><div class="wrap"><span>© 2026 Minik Mucizeler Kreş ve Anaokulu · Mamak / Ankara</span><span>KVKK aydınlatma metni</span></div></footer>
+
+<script>
+(function(){
+// Yayına alırken okulun WhatsApp numarasını yazın (ör. '905414397619'). Boşken form önizleme modunda çalışır.
+var WHATSAPP='';
+function $(i){return document.getElementById(i)}
+var now=new Date(),NS='http://www.w3.org/2000/svg';
+
+// wishes
+var WI=[['💪','Özgüvenli olsun','Kendine güvenen bir çocuk','"Ben yapabilirim!" diyebilmesi için ona küçük sorumluluklar veriyor, her denemesini takdir ediyoruz.',['Sınıfta küçük görevler: sofra, oyuncak toplama','Gösterilerde sahneye çıkma','Kendi başına giyinme ve yemek']],
+['🤝','Arkadaşları olsun','Paylaşan, birlikte oynayan bir çocuk','Grup oyunları ve ortak projelerle sıra beklemeyi, paylaşmayı ve arkadaşını dinlemeyi öğreniyor.',['Grup oyunları ve drama','Partiler ve kutlamalar','Duyguları tanıma etkinlikleri']],
+['🔍','Meraklı olsun','Soru soran, keşfeden bir çocuk','Her "neden?" sorusunu bir keşfe çeviriyoruz. Deneyler, doğa gözlemleri, kitaplar.',['Basit deneyler','Mevsim ve doğa gözlemi','Hikâye saati']],
+['🇹🇷','Değerlerini bilsin','Ülkesini ve büyüklerini seven bir çocuk','29 Ekim, 10 Kasım, 23 Nisan... Özel günlere birlikte hazırlanıyor, değerleri yaşayarak öğreniyoruz.',['Özel gün hazırlıkları ve gösteriler','İstiklal Marşı ve şiirler','Anneler ve Babalar Günü etkinlikleri']],
+['😊','Mutlu olsun','Her sabah okula koşarak gelen bir çocuk','Sevgi, saygı ve şefkatle yaklaşıyoruz. Okul onun için ikinci bir ev olsun istiyoruz.',['Kapıda güler yüzle karşılama','Bol oyun ve kahkaha','Sihirbaz gösterisi gibi sürprizler']],
+['✏️','Okula hazır olsun','İlkokula güvenle başlayan bir çocuk','Son yılda dikkat, kalem tutma, sesler ve sayılarla ilkokula sağlam bir hazırlık yapıyoruz.',['Çizgi ve kalem çalışmaları','Ses ve sayı oyunları','Karne ve mezuniyet heyecanı']]];
+var wl=$('wl'),made={};
+WI.forEach(function(w,i){var b=document.createElement('button');b.type='button';b.className='wb';b.innerHTML='<i aria-hidden="true"></i><span></span>';b.querySelector('i').textContent=w[0];b.querySelector('span').textContent=w[1];b.onclick=function(){wish(i)};wl.appendChild(b)});
+function wish(i){var w=WI[i],c=$('wcard');made[i]=1;
+ c.innerHTML='<svg class="star" viewBox="0 0 40 40" aria-hidden="true"><use href="#st" style="color:#ffc93c"/></svg><span class="k"></span><h3></h3><p></p><ul></ul>';
+ c.querySelector('.k').textContent='Dileğiniz: '+w[1].toLowerCase();c.querySelector('h3').textContent=w[2];c.querySelector('p').textContent=w[3];
+ var ul=c.querySelector('ul');w[4].forEach(function(x){var li=document.createElement('li');li.textContent=x;ul.appendChild(li)});
+ wl.querySelectorAll('.wb').forEach(function(b,j){b.setAttribute('aria-pressed',j===i)});
+ var n=Object.keys(made).length;$('wmade').textContent=n===WI.length?'Bütün dilekleriniz kabul olsun! ✨':n+' / '+WI.length+' dilek tutuldu'}
+wish(0);
+
+// calendar: [month(0-11), day, icon, title, text, color]
+var CA=[[8,15,'🎒','Okula başlangıç','Uyum haftası ve tanışma.','var(--mint-d)'],[9,29,'🇹🇷','29 Ekim','Cumhuriyet Bayramı kutlaması.','var(--red)'],[10,10,'🖤','10 Kasım','Atatürk\'ü saygı ve sevgiyle anma.','var(--ink)'],[11,31,'🎉','Yeni yıl partisi','Kostümler, müzik ve sürprizler.','var(--purple)'],[0,16,'📜','Karne heyecanı','Dönem sonu gelişim karnesi.','var(--sky)'],[3,23,'🎈','23 Nisan','Çocuk Bayramı gösterisi.','var(--red)'],[4,10,'💐','Anneler Günü','"Yeniden anne olsaydım..."','var(--pink-d)'],[5,21,'🥸','Babalar Günü','Babalarla birlikte etkinlik.','var(--sky)'],[5,15,'🎓','Yıl sonu ve mezuniyet','Gösteri, karne ve kutlama.','var(--purple)'],[6,1,'🪄','Partiler','Sihirbaz gösterisi gibi sürpriz partiler.','var(--mint-d)']];
+var AYK=['Eylül','Ekim','Kasım','Aralık','Ocak','Şubat','Mart','Nisan','Mayıs','Haziran','Temmuz','Ağustos'],AY=['Ocak','Şubat','Mart','Nisan','Mayıs','Haziran','Temmuz','Ağustos','Eylül','Ekim','Kasım','Aralık'];
+function schoolIdx(m,d){return ((m-8+12)%12)*40+d}
+var today=schoolIdx(now.getMonth(),now.getDate()),list=CA.slice().sort(function(a,b){return schoolIdx(a[0],a[1])-schoolIdx(b[0],b[1])});
+var nextI=-1;list.forEach(function(e,i){if(nextI<0&&schoolIdx(e[0],e[1])>=today)nextI=i});
+var cal=$('cal');list.forEach(function(e,i){var d=document.createElement('div');d.className='ev'+(i===nextI?' next':'')+(nextI>=0&&i<nextI?' past':'');d.style.setProperty('--c',e[5]);
+ d.innerHTML='<span class="ic" aria-hidden="true"></span><small></small><h3></h3><p></p>';d.querySelector('.ic').textContent=e[2];d.querySelector('small').textContent=(e[3]==='Partiler'?'YIL BOYU':AY[e[0]].toUpperCase());d.querySelector('h3').textContent=e[3];d.querySelector('p').textContent=e[4];cal.appendChild(d)});
+
+// finder
+var bm=$('bm'),by=$('by');
+AY.forEach(function(a,i){var o=document.createElement('option');o.value=i;o.textContent=a;bm.appendChild(o)});
+for(var y=now.getFullYear();y>=now.getFullYear()-8;y--){var o=document.createElement('option');o.value=y;o.textContent=y;by.appendChild(o)}
+var d0=new Date(now.getFullYear(),now.getMonth()-40,1);bm.value=d0.getMonth();by.value=d0.getFullYear();
+var G=[[24,35,'Pamuklar','2–3 yaş','Okulla ilk tanışma ve öz bakım.','var(--pink)',0],[36,47,'Kelebekler','3–4 yaş','Paylaşmak, sanat, müzik ve drama.','#d9a20f',1],[48,59,'Gökkuşakları','4–5 yaş','Kavramlar, deneyler, gösteriler.','var(--mint-d)',2],[60,72,'Kayan Yıldızlar','5–6 yaş','İlkokula hazırlık programı.','var(--purple)',3]];
+function calc(){var m=(now.getFullYear()-(+by.value))*12+(now.getMonth()-(+bm.value));var r=$('res');r.innerHTML='';
+ function el(t,c,x){var e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;r.appendChild(e);return e}
+ if(m<0){el('span','big','Bu tarih ileride');el('p',null,'Lütfen doğum ayını ve yılını kontrol edin.');return}
+ el('span','age','Çocuğunuz bugün '+Math.floor(m/12)+' yaş '+(m%12)+' aylık');
+ if(m<24){el('span','big','Biraz erken');el('p',null,'Programımız 2 yaşından itibaren başlıyor. Ön kayıt bırakın, zamanı gelince haber verelim.');return}
+ if(m>72){el('span','big','İlkokul çağında');el('p',null,'Programımız 6 yaşına kadardır. Kardeşler için bizi arayabilirsiniz.');return}
+ var g=G.filter(function(x){return m>=x[0]&&m<=x[1]})[0];var b=el('span','big',g[2]);b.style.color=g[5];el('p',null,g[3]+' · '+g[4]);
+ var a=el('a','btn m',g[2]+' için ön kayıt');a.href='#iletisim';a.onclick=function(){$('cg').selectedIndex=g[6]}}
+bm.onchange=calc;by.onchange=calc;calc();
+
+// docs
+var DOCS=['Çocuğun nüfus cüzdanı fotokopisi','Veli kimlik fotokopileri','Aşı kartı fotokopisi','Sağlık raporu (toplu yaşama uygundur)','4 adet vesikalık fotoğraf','Çocuğu teslim alacak kişilerin listesi'];
+var ul=$('docs');DOCS.forEach(function(t,i){var li=document.createElement('li');li.innerHTML='<label for="dk'+i+'"><input type="checkbox" id="dk'+i+'"><span></span></label>';li.querySelector('span').textContent=t;var lb=li.querySelector('label');li.querySelector('input').onchange=function(e){lb.classList.toggle('on',e.target.checked);dc()};ul.appendChild(li)});
+function dc(){var k=document.querySelectorAll('#docs input:checked').length;$('dc').textContent=k===DOCS.length?'Hepsi hazır, görüşmek üzere!':k+' / '+DOCS.length+' hazır'}dc();
+
+// form
+$('f').addEventListener('submit',function(e){e.preventDefault();var er=$('er'),ok=$('ok');er.hidden=true;ok.hidden=true;
+ var pn=$('pn').value.trim(),pt=$('pt').value.trim();
+ if(!pn||pt.replace(/\D/g,'').length<10){er.textContent='Lütfen adınızı ve geçerli bir telefon numarası yazın.';er.hidden=false;(pn?$('pt'):$('pn')).focus();return}
+ if(!$('kv').checked){er.textContent='Devam etmek için aydınlatma metnini onaylayın.';er.hidden=false;$('kv').focus();return}
+ var txt='Merhaba, ön kayıt talebim var.\nVeli: '+pn+'\nTelefon: '+pt+'\nÇocuk: '+($('cn').value.trim()||'-')+' ('+($('cb').value||'doğum tarihi belirtilmedi')+')\nGrup: '+$('cg').value+'\nBaşlangıç: '+$('cd').value+($('nt').value.trim()?'\nNot: '+$('nt').value.trim():'');
+ if(WHATSAPP){var a=document.createElement('a');a.href='https://wa.me/'+WHATSAPP+'?text='+encodeURIComponent(txt);a.target='_blank';a.rel='noopener';a.className='btn';a.textContent='WhatsApp\'ta gönder';ok.textContent='Bilgileriniz hazır. Göndermek için butona dokunun: ';ok.appendChild(a)}
+ else ok.textContent='Teşekkürler '+pn+'! Bu bir önizlemedir; yayındaki sitede talebiniz okulumuza WhatsApp ile iletilecek.';
+ ok.hidden=false});
+})();
+</script>
+</body></html>
